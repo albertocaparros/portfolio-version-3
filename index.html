@@ -4,10 +4,149 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v3.0.0/css/line.css"
+    />
     <link rel="stylesheet" href="assets/styles/styles.css" />
     <title>Alberto Caparrós - Portfolio</title>
   </head>
+
   <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="" class="nav_logo">Alberto Caparrós</a>
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list grid">
+            <li class="nav_item">
+              <a href="#home" class="nav_link"
+                ><i class="uil uil-home nav_icon"></i> Home</a
+              >
+            </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link"
+                ><i class="uil uil-user nav_icon"></i> About</a
+              >
+            </li>
+            <li class="nav_item">
+              <a href="#portfolio" class="nav_link"
+                ><i class="uil uil-suitcase nav_icon"></i> Portfolio</a
+              >
+            </li>
+            <li class="nav_item">
+              <a href="#qualifications" class="nav_link"
+                ><i class="uil uil-graduation-cap nav_icon"></i>
+                Qualifications</a
+              >
+            </li>
+            <li class="nav_item">
+              <a href="#skills" class="nav_link"
+                ><i class="uil uil-desktop nav_icon"></i> Skills</a
+              >
+            </li>
+          </ul>
+          <i class="uil uil-times nav_close" id="nav-close"></i>
+        </div>
+
+        <div class="nav_btns">
+          <div class="nav_toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <section class="home section" id="home">
+        <div class="home_container container">
+          <div class="home_content grid">
+            <div class="home_social">
+              <a
+                href="https://www.linkedin.com/in/albertocaparros/"
+                class="home_social-icon"
+                target="_blank"
+                ><i class="uil uil-linkedin-alt"></i
+              ></a>
+              <a
+                href="https://github.com/albertocaparros"
+                class="home_social-icon"
+                target="_blank"
+                ><i class="uil uil-github-alt"></i
+              ></a>
+            </div>
+            <div class="home_img">
+              <img
+                src="./assets/img/programming-animation.gif"
+                class="rounded-img"
+                alt="profile"
+              />
+            </div>
+          </div>
+          <div class="home_data">
+            <h1 class="home_title">Alberto Caparrós</h1>
+            <h3 class="home_subtitle">Frontend developer</h3>
+            <p class="home_description">
+              Computer science engineer with 3+ years of professional experience
+              in software development.
+            </p>
+            <p class="section_subtitle">
+              <a
+                href="mailto:albertocaparrostrigo@gmail.com"
+                class="home_social-icon"
+                ><i class="uil uil-envelope"></i> Contact me:
+              </a>
+              albertocaparrostrigo@gmail.com
+            </p>
+          </div>
+
+          <div class="home_scroll">
+            <a href="#about" class="home_scroll-button button--flex">
+              <i class="uil uil-mouse-alt home_scroll-mouse"></i>
+              <span class="home_scroll-name">Scroll down</span>
+              <i class="uil uil-arrow-down home_scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <h2 class="section_title">About me</h2>
+
+        <div class="about_container container grid">
+          <img
+            src="assets/img/profile.jpg"
+            alt="profile picture"
+            class="about_img"
+          />
+
+          <div class="about_description">
+            Computer science engineer with 3+ years of professional experience
+            in software development. Track record of delivering polished
+            software products that meet requirements and deadlines. Passionate
+            about the future and potential of web technologies.
+          </div>
+
+          <div class="about_buttons">
+            <a
+              href="assets/docs/CV.pdf"
+              target="_blank"
+              class="button button--flex"
+              ><i class="uil uil-download-alt button_icon"></i> Download CV</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio section" id="portfolio"></section>
+
+      <section class="qualifications section" id="qualifications"></section>
+
+      <section class="skills section" id="skills"></section>
+    </main>
+
+    <footer class="footer"></footer>
+
     <script src="assets/js/main.js"></script>
   </body>
 </html>
