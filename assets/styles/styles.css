@@ -386,3 +386,70 @@ img {
   padding: var(--mb-0-5) var(--mb-0-75);
   margin: var(--mb-0-25) var(--mb-0-5);
 }
+
+.qualifications_container {
+  row-gap: 0;
+}
+
+.qualifications_header {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--mb-1-5);
+  cursor: pointer;
+}
+
+.qualifications_logo {
+  width: 4rem;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-right: var(--mb-0-75);
+}
+
+.qualifications_arrow {
+  font-size: 2rem;
+  color: var(--first-color);
+  margin-left: auto;
+  transition: 0.4s;
+}
+
+.qualifications_title {
+  font-size: var(--h3-font-size);
+}
+
+.qualifications_subtitle {
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+}
+
+.qualifications_titles {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--mb-0-5);
+}
+
+.qualifications_list {
+  margin-bottom: var(--mb-0-5);
+}
+
+.qualifications_info {
+  margin-bottom: var(--mb-1);
+}
+
+.qualifications_section {
+  font-size: var(--h1-font-size);
+  margin-bottom: var(--mb-1);
+}
+
+.qualifications_content-open .qualifications_content {
+  height: max-content;
+  margin-bottom: var(--mb-2-5);
+}
+
+.qualifications_content-close .qualifications_content {
+  height: 0;
+  overflow: hidden;
+}
+
+.qualifications_content-open .qualifications_arrow {
+  transform: rotate(-180deg);
+}

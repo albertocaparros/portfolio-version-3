@@ -23,3 +23,29 @@ if (navClose) {
 const navLink = document.querySelectorAll('.nav_link');
 
 navLink.forEach((link) => link.addEventListener('click', closeMenu));
+
+const qualificationsUnit = document.getElementsByClassName(
+  'qualifications_unit'
+);
+const qualificationsHeader = document.querySelectorAll(
+  '.qualifications_header'
+);
+
+function toggleQualifications() {
+  console.log('hola');
+  let itemClass = this.parentNode.className;
+
+  for (i = 0; i < qualificationsUnit.length; i++) {
+    qualificationsUnit[i].className =
+      'qualifications_unit qualifications_content-close';
+  }
+
+  if (itemClass === 'qualifications_unit qualifications_content-close') {
+    this.parentNode.className =
+      'qualifications_unit qualifications_content-open';
+  }
+}
+
+qualificationsHeader.forEach((element) => {
+  element.addEventListener('click', toggleQualifications);
+});
