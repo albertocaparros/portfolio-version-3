@@ -32,7 +32,6 @@ const qualificationsHeader = document.querySelectorAll(
 );
 
 function toggleQualifications() {
-  console.log('hola');
   let itemClass = this.parentNode.className;
 
   for (i = 0; i < qualificationsUnit.length; i++) {

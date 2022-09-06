@@ -45,6 +45,11 @@
         </div>
 
         <div class="nav_buttons">
+          <div data-i18n-switcher class="change-language">
+            <i class="uil uil-english-to-chinese"></i>
+            <p data-i18n-key="change-language"></p>
+          </div>
+
           <i class="uil uil-moon change-theme" id="theme-button"></i>
 
           <div class="nav_toggle" id="nav-toggle">
@@ -83,8 +88,10 @@
           </div>
           <div class="home_data">
             <h1 class="home_title">Alberto Caparrós</h1>
-            <h3 class="home_subtitle">Frontend developer</h3>
-            <p class="home_description">
+            <h3 class="home_subtitle" data-i18n-key="working-title">
+              Frontend developer
+            </h3>
+            <p class="home_description" data-i18n-key="site-description">
               Welcome to my portfolio page, where you can get to learn about me
               and my work. Currently available for remote freelance and full
               time work.
@@ -93,10 +100,9 @@
               <a
                 href="mailto:albertocaparrostrigo@gmail.com"
                 class="contact-icon"
-                ><i class="uil uil-envelope"></i>
-                Contact me:
-              </a>
-              albertocaparrostrigo@gmail.com
+                ><i class="uil uil-envelope"></i> Contact </a
+              ><br />
+              <span>albertocaparrostrigo@gmail.com</span>
             </p>
           </div>
 
@@ -492,6 +498,7 @@
       </div>
     </footer>
 
+    <script src="assets/js/i18n.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
 </html>

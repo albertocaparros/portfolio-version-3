@@ -258,7 +258,7 @@ img {
 }
 
 .contact-icon {
-  font-size: 1.75rem;
+  font-size: var(--h2-font-size);
   color: var(--title-color);
 }
 
@@ -574,4 +574,20 @@ body.dark-theme {
 ::-webkit-scrollbar-thumb {
   background-color: var(--scroll-thumb-color);
   border-radius: 0.5rem;
+}
+
+.change-language {
+  display: flex;
+  font-size: 1.25rem;
+  color: var(--title-color);
+  margin-right: var(--mb-1);
+  cursor: pointer;
+}
+
+.change-language:hover {
+  color: var(--first-color-alt);
+}
+
+.change-language i {
+  margin-right: var(--mb-0-25);
 }
