@@ -332,6 +332,16 @@ img {
   background-color: var(--first-color-alt);
 }
 
+.button_icon {
+  font-size: var(--h2-font-size);
+}
+
+.button--flex {
+  display: flex;
+  gap: var(--mb-0-5);
+  align-items: center;
+}
+
 .about_img {
   width: 20rem;
   border-radius: 35%;
