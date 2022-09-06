@@ -11,7 +11,7 @@
   --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
   --first-color: hsl(var(--hue-color), 92%, 85%);
   --text-color: hsl(var(--hue-color), 8%, 38%);
-  --text-color-light: hsl(var(--hue-color), 8%, 65%);
+  --text-color-light: hsl(var(--hue-color), 8%, 40%);
   --input-color: hsl(var(--hue-color), 70%, 96%);
   --body-color: hsl(var(--hue-color), 60%, 97%);
   --container-color: #fff;
@@ -381,10 +381,11 @@ img {
 
 .portfolio_content {
   padding: 1.5rem;
+  text-align: center;
 }
 
 .portfolio_img {
-  width: 20rem;
+  width: 15rem;
   border-radius: 0.5rem;
   justify-self: center;
   transition: 0.5s ease;
@@ -582,6 +583,7 @@ body.dark-theme {
   --first-color-second: hsl(var(--hue-color), 30%, 1%);
   --title-color: hsl(var(--hue-color), 10%, 90%);
   --text-color: hsl(var(--hue-color), 10%, 85%);
+  --text-color-light: hsl(var(--hue-color), 8%, 60%);
   --input-color: hsl(var(--hue-color), 30%, 16%);
   --body-color: hsl(var(--hue-color), 28%, 14%);
   --container-color: hsl(var(--hue-color), 29%, 16%);
