@@ -169,7 +169,7 @@ img {
     width: 100%;
     background-color: var(--body-color);
     padding: 2rem 1.5rem 4rem;
-    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 -1px 4px var(--text-color-light);
     transition: 0.3s;
   }
 }
@@ -554,7 +554,7 @@ img {
 }
 
 .scroll-header {
-  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 -1px 4px var(--text-color-light);
 }
 
 .nav_buttons {
