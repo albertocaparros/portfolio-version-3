@@ -1,4 +1,4 @@
-const defaultLocale = 'es';
+const defaultLocale = 'en';
 
 let locale;
 let translations = {};

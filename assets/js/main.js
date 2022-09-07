@@ -1,28 +1,29 @@
 const navMenu = document.getElementById('nav-menu');
-const navToggle = document.getElementById('nav-toggle');
+const navOpen = document.getElementById('nav-open');
 const navClose = document.getElementById('nav-close');
+const navLink = document.querySelectorAll('.nav_link');
 
-const showMenu = () => {
+const openNavigationMenu = () => {
   navMenu.classList.remove('close-menu');
-  navMenu.classList.add('show-menu');
+  navMenu.classList.add('open-menu');
 };
 
-const closeMenu = () => {
-  navMenu.classList.remove('show-menu');
+const closeNavigationMenu = () => {
+  navMenu.classList.remove('open-menu');
   navMenu.classList.add('close-menu');
 };
 
-if (navToggle) {
-  navToggle.addEventListener('click', showMenu);
+if (navOpen) {
+  navOpen.addEventListener('click', openNavigationMenu);
 }
 
 if (navClose) {
-  navClose.addEventListener('click', closeMenu);
+  navClose.addEventListener('click', closeNavigationMenu);
 }
 
-const navLink = document.querySelectorAll('.nav_link');
+navLink.forEach((link) => link.addEventListener('click', closeNavigationMenu));
 
-navLink.forEach((link) => link.addEventListener('click', closeMenu));
+//--------------------------------------------------------------------------------//
 
 const qualificationsUnit = document.getElementsByClassName(
   'qualifications_unit'
@@ -49,6 +50,8 @@ qualificationsHeader.forEach((element) => {
   element.addEventListener('click', toggleQualifications);
 });
 
+//--------------------------------------------------------------------------------//
+
 const sections = document.querySelectorAll('section[id]');
 
 function scrollActive() {
@@ -73,6 +76,8 @@ function scrollActive() {
 
 window.addEventListener('scroll', scrollActive);
 
+//--------------------------------------------------------------------------------//
+
 function scrollHeader() {
   const nav = document.getElementById('header');
 
@@ -85,33 +90,36 @@ function scrollHeader() {
 
 window.addEventListener('scroll', scrollHeader);
 
-const themeButton = document.getElementById('theme-button');
-const darkTheme = 'dark-theme';
-const iconTheme = 'uil-sun';
+//--------------------------------------------------------------------------------//
 
+const themeButton = document.getElementById('theme-button');
 const selectedTheme = localStorage.getItem('selected-theme');
 const selectedIcon = localStorage.getItem('selected-icon');
+const darkTheme = 'dark-theme';
+const lightIcon = 'uil-sun';
 
 const getCurrentTheme = () =>
   document.body.classList.contains(darkTheme) ? 'dark' : 'light';
 const getCurrentIcon = () =>
-  themeButton.classList.contains(iconTheme) ? 'uil-moon' : 'uil-sun';
+  themeButton.classList.contains(lightIcon) ? 'uil-moon' : 'uil-sun';
 
 if (selectedTheme) {
   document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](
     darkTheme
   );
   themeButton.classList[selectedIcon === 'uil-moon' ? 'add' : 'remove'](
-    iconTheme
+    lightIcon
   );
 }
 
 const toggleTheme = () => {
   document.body.classList.toggle(darkTheme);
-  themeButton.classList.toggle(iconTheme);
+  themeButton.classList.toggle(lightIcon);
 
   localStorage.setItem('selected-theme', getCurrentTheme());
   localStorage.setItem('selected-icon', getCurrentIcon());
 };
 
 themeButton.addEventListener('click', toggleTheme);
+
+//--------------------------------------------------------------------------------//

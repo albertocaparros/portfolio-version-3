@@ -147,21 +147,17 @@ img {
 }
 
 .nav_logo,
-.nav_toggle {
+.nav_open {
   color: var(--title-color);
   font-weight: var(--font-medium);
 }
 
-.nav_logo:hover {
-  color: var(--first-color-alt);
-}
-
-.nav_toggle {
+.nav_open {
   font-size: 1.1rem;
   cursor: pointer;
 }
 
-.nav_toggle:hover {
+.nav_open:hover {
   color: var(--first-color-alt);
 }
 
@@ -213,7 +209,7 @@ img {
   color: var(--first-color-alt);
 }
 
-.show-menu {
+.open-menu {
   bottom: 0;
 }
 
@@ -409,7 +405,7 @@ img {
 .tag_list {
   display: flex;
   -webkit-box-pack: start;
-  justify-content: flex-start;
+  justify-content: center;
   margin: 0;
 }
 
@@ -755,7 +751,7 @@ body.dark-theme {
 
   .nav_icon,
   .nav_close,
-  .nav_toggle {
+  .nav_open {
     display: none;
   }
 
