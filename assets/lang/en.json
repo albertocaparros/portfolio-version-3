@@ -1,5 +1,19 @@
 {
   "working-title": "Frontend developer",
   "site-description": "Welcome to my portfolio page, where you can get to learn about me and my work. Currently available for remote freelance and full time work.",
-  "change-language": "es"
+  "change-language": "es",
+  "home": "Home",
+  "about": "About me",
+  "qualifications": "Qualifications",
+  "contact": "Contact",
+  "scroll-down": "Scroll down",
+  "about-subtitle": "Who's Alberto",
+  "about-paragraph-1": "I've been fascinated by the potential of web development since I wrote my first HTML lines when I was 14. Nowadays I'm looking for an opportunity to develop frontend technologies and become an expert in this field.",
+  "about-paragraph-2": "Besides creating high-quality code and learning about web technologies, I'm a globetrotter who's lived in 7 countries and visited more than 30 (and counting!). If you are curious about my personal history you can click on the 'Learn more' button.",
+  "download-cv": "Download CV",
+  "learn-more": "Learn more",
+  "portfolio-subtitle": "I have recently started to get back in the market and pursue a new position in frontend development. Here are some personal projects that I have worked on recently to showcase my skills and learn new things.",
+  "dailys-board-description": "With remote work we lost the good old analogic board that helped the team move the daily meeting forward. Tired of awkward silents and people asking who had already talked, I created this simple app to help my team. Currently it is using localstorage for data persistency, and I'm working on adding a toast notification feature.",
+  "travel-journal-description": "I developed this app to make a little journal where I can keep track of the places I have visited over the world. You can check the pictures and some information on the locations, as well as seeing all the spots in the map. Originally a vanilla JS app, I made a second iteration of this project using Remix framework.",
+  "code": "Code"
 }

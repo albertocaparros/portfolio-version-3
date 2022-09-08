@@ -17,17 +17,17 @@
       <div class="nav_menu" id="nav-menu">
         <ul class="nav_list grid">
           <li class="nav_item">
-            <a href="#home" class="nav_link"><i class="uil uil-home nav_icon"></i> Home</a>
+            <a href="#home" class="nav_link"><i class="uil uil-home nav_icon"></i> <span data-i18n-key="home">Home</span></a>
           </li>
           <li class="nav_item">
-            <a href="#about" class="nav_link"><i class="uil uil-user nav_icon"></i> About</a>
+            <a href="#about" class="nav_link"><i class="uil uil-user nav_icon"></i> <span data-i18n-key="about">About</span></a>
           </li>
           <li class="nav_item">
             <a href="#portfolio" class="nav_link"><i class="uil uil-suitcase nav_icon"></i> Portfolio</a>
           </li>
           <li class="nav_item">
             <a href="#qualifications" class="nav_link"><i class="uil uil-graduation-cap nav_icon"></i>
-              Qualifications</a>
+              <span data-i18n-key="qualifications">Qualifications</span></a>
           </li>
         </ul>
         <i class="uil uil-times nav_close" id="nav-close"></i>
@@ -76,7 +76,7 @@
             </p>
             <p class="section_subtitle">
               <a href="mailto:albertocaparrostrigo@gmail.com" class="contact-icon"><i class="uil uil-envelope"></i>
-                Contact </a><br />
+                <span data-i18n-key="contact">Contact</span> </a><br />
               <span class="email">albertocaparrostrigo@gmail.com</span>
             </p>
           </div>
@@ -84,7 +84,7 @@
         <div class="home_scroll">
           <a href="#about" class="home_scroll-button button--flex">
             <i class="uil uil-mouse-alt home_scroll-mouse"></i>
-            <span class="home_scroll-name">Scroll down</span>
+            <span class="home_scroll-name" data-i18n-key="scroll-down">Scroll down</span>
             <i class="uil uil-arrow-down home_scroll-arrow"></i>
           </a>
         </div>
@@ -92,24 +92,30 @@
     </section>
 
     <section class="about section" id="about">
-      <h2 class="section_title">About me</h2>
-      <h2 class="section_subtitle">Who's Alberto</h2>
+      <h2 class="section_title" data-i18n-key="about">About me</h2>
+      <h2 class="section_subtitle" data-i18n-key="about-subtitle">Who's Alberto</h2>
 
       <div class="about_container container grid">
         <img src="assets/img/profile.jpg" alt="profile picture" class="about_img" />
 
         <div>
-          <p class="about_description">
-            Computer science engineer with 3+ years of professional experience
-            in software development. Track record of delivering polished
-            software products that meet requirements and deadlines. Passionate
-            about the future and potential of web technologies. 
+          <p class="about_description" data-i18n-key="about-paragraph-1">
+            I've been fascinated by the potential of web development since I wrote my first html lines when I was 14. 
+            Nowadays I'm looking for an opportunity to develop frontend technologies and become an expert in this field.
+          </p>          
+          <p class="about_description" data-i18n-key="about-paragraph-2">
+            Besides creating high-quality code and learning about web technologies, I'm a globetrotter who's lived in 7 countries and visited more than 30 (and counting!). 
+            If you are curious about my personal history you can click on the 'Learn more' button.
           </p>
-          <div class="about_buttons download_cv">
+          <div class="about_buttons">
             <a href="assets/docs/CV.pdf" target="_blank" class="button button--flex"><i
                 class="uil uil-download-alt button_icon"></i>
-              <span>Download CV</span></a>
+              <span data-i18n-key="download-cv">Download CV</span></a>
+              <div class="button button--flex"><i
+                class="uil uil-search button_icon"></i>
+              <span data-i18n-key="learn-more">Learn more</span><div/>
           </div>
+
         </div>
       </div>
     </section>
@@ -117,61 +123,54 @@
     <section class="portfolio section" id="portfolio">
       <div class="portfolio_container container">
         <h2 class="section_title">Portfolio</h2>
-        <p class="section_subtitle">Maybe here explanation Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Laudantium expedita id labore odit, nisi soluta
-          iste iusto error hic tenetur.</p>
+        <p class="section_subtitle" data-i18n-key="portfolio-subtitle">I have recently started to get back in the market and pursue a new position in frontend development. Here are some personal projects that I have worked on recently to showcase my skills and learn new things.</p>
         <div>
           <!-- PROJECT 1 -->
           <div class="portfolio_content">
             <div class="portfolio_data ">
-              <img src="assets/img/portfolio-project-1.jpg" alt="proyecto1" class="portfolio_img" />
-              <h3 class="portfolio_title">Dailys board</h3>
-              <p class="portfolio_description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-                voluptates unde facere quos cum quasi incidunt eum recusandae
-                delectus quis quam optio, soluta quae adipisci enim, deserunt
-                impedit et fugiat?
+              <a href="https://dailys-board.vercel.app/" target="_blank"><img src="assets/img/dailys-board-screenshot.jpg" alt="proyecto1" class="portfolio_img" /></a>
+              <h3 class="portfolio_title" >Dailys board</h3>
+              <p class="portfolio_description" data-i18n-key="dailys-board-description">
+                With remote work we lost the good old analogic board that helped the team move the daily meeting forward. Tired of awkward silents and people asking who had already talked, I created this simple app to help my team. Currently it is using localstorage for data persistency, and I'm working on adding a toast notification feature.
               </p>
               <ul class="tag_list">
-                <li class="tag_item">html</li>
-                <li class="tag_item">css</li>
                 <li class="tag_item">react</li>
-                <li class="tag_item">hooks</li>
+                <li class="tag_item">tailwind</li>
+                <li class="tag_item">cypress</li>
+                <li class="tag_item">context hook</li>
               </ul>
-              <div class="about_buttons">
-                <a href="" class="button button--flex button--small portfolio_button"><i
+              <div class="portfolio_buttons">
+                <a href="https://dailys-board.vercel.app/" target="_blank" class="button button--flex button--small portfolio_button"><i
                     class="uil uil-airplay button_icon"></i>
                   <span>Demo</span></a>
-                <a href="" class="button button--flex button--small portfolio_button"><i
+                <a href="https://github.com/albertocaparros/dailys-board" target="_blank" class="button button--flex button--small portfolio_button"><i
                     class="uil uil-brackets-curly button_icon"></i>
-                  <span>Code</span></a>
+                  <span data-i18n-key="code">Code</span></a>
               </div>
             </div>
           </div>
           <!-- PROJECT 2 -->
           <div class="portfolio_content">
             <div class="portfolio_data">
-              <img src="assets/img/portfolio-project-2.jpg" alt="proyecto1" class="portfolio_img" />
-              <h3 class="portfolio_title">My trips</h3>
-              <p class="portfolio_description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-                voluptates unde facere quos cum quasi incidunt eum recusandae
-                delectus quis quam optio, soluta quae adipisci enim, deserunt
-                impedit et fugiat?
+              <a href="" target="_blank"><img src="assets/img/my-travel-journal-screenshot.jpg" alt="proyecto1" class="portfolio_img" /></a>
+              <h3 class="portfolio_title">My travel journal</h3>
+              <p class="portfolio_description" data-i18n-key="travel-journal-description">
+                I developed this app to make a little journal where I can keep track of the places I have visited over the world. You can check the pictures and some information on the locations, as well as seeing all the spots in the map. Originally a vanilla js app, I made a second iteration of this project using Remix.
               </p>
               <ul class="tag_list">
-                <li class="tag_item">html</li>
-                <li class="tag_item">css</li>
                 <li class="tag_item">react</li>
-                <li class="tag_item">hooks</li>
+                <li class="tag_item">remix</li>
+                <li class="tag_item">css</li>
+                <li class="tag_item">prisma</li>
+                <li class="tag_item">google maps API</li>
               </ul>
-              <div class="about_buttons">
-                <a href="" class="button button--flex button--small portfolio_button"><i
+              <div class="portfolio_buttons">
+                <a href=""  target="_blank" class="button button--flex button--small portfolio_button"><i
                     class="uil uil-airplay button_icon"></i>
                   <span>Demo</span></a>
-                <a href="" class="button button--flex button--small portfolio_button"><i
+                <a href="https://github.com/albertocaparros/mytrips" target="_blank" class="button button--flex button--small portfolio_button"><i
                     class="uil uil-brackets-curly button_icon"></i>
-                  <span>Code</span></a>
+                  <span data-i18n-key="code">Code</span></a>
               </div>
             </div>
           </div>
@@ -193,6 +192,13 @@
             <div>
               <h3 class="qualifications_title">Senior Software engineer</h3>
               <span class="qualifications_subtitle">2019-Present</span>
+              <ul class="tag_list">
+                <li class="tag_item">C#</li>
+                <li class="tag_item">.NET</li>
+                <li class="tag_item">SQL Server</li>
+                <li class="tag_item">Unit testing</li>
+                <li class="tag_item">SOLID</li>
+              </ul>
             </div>
 
             <i class="uil uil-angle-down qualifications_arrow"></i>
