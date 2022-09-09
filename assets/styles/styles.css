@@ -646,6 +646,31 @@ body.dark-theme {
   font-size: var(--normal-font-size);
 }
 
+.scrollup {
+  position: fixed;
+  right: 1.2rem;
+  bottom: -20%;
+  background-color: var(--first-color);
+  opacity: 0.8;
+  padding: 0 0.3rem;
+  border-radius: 0.4rem;
+  z-index: var(--z-tooltip);
+  transition: 0.4s;
+}
+
+.scrollup:hover {
+  background-color: var(--first-color-alt);
+}
+
+.scrollup_icon {
+  font-size: 1.5rem;
+  color: var(--title-color);
+}
+
+.show-scroll {
+  bottom: 4rem;
+}
+
 @media screen and (max-width: 678px) {
   .container {
     margin-left: var(--mb-1);
