@@ -114,11 +114,33 @@
             <a href="assets/docs/CV.pdf" target="_blank" class="button button--flex"><i
                 class="uil uil-download-alt button_icon"></i>
               <span data-i18n-key="download-cv">Download CV</span></a>
-            <div class="button button--flex"><i class="uil uil-search button_icon"></i>
-              <span data-i18n-key="learn-more">Learn more</span>
+            <div class="button button--flex" id="open-modal"><i class="uil uil-search button_icon"></i>
+              <span data-i18n-key="learn-more" >Learn more</span>
               <div />
             </div>
+          </div>
+        </div>
 
+        <div class="about_modal" id="about-modal">
+          <div class="about_modal-content" id="about-modal-content">            
+            <i class="uil uil-times about_modal-close" id="about-modal-close"></i>
+            <h3 class="about_modal-title" data-i18n-key="my-story">My story</h3>
+            <p class="about_modal_info" data-i18n-key="about-info-1">For some reason, I have two very distinct memories from my childhood related to computers. First one is being able to run the game Dangerous Dave with a MS-DOS command as a kid. (Yes, I'm that old 😅). The second one is creating my first website about Final Fantasy VII and VIII using old HTML. I still have nightmares about < table > and < marquee >.</p>
+            <div class="about_modal_img_section">
+              <img src="/assets/img/dangerous-dave.jpg" class="about_modal_img" />
+              <span class="img_span" data-i18n-key="about-pic-1">I need to play this again.</span>
+            </div>
+            <p class="about_modal_info" data-i18n-key="about-info-2">Considering my early interest, it was an easy decision to choose Computer Science for my university degree. I studied in Spain, although but that time I already lived for a few months in Edinburgh, and soon after I entered the Erasmus program to study one year abroad in Wrocław, Poland. It was the beginning of my interest in knowing other places in the world. Before I finished my degree I did a traineeship in IBM Belgium, and soon after that I went back for another stage at the European Commision.</p>
+            <div class="about_modal_img_section">
+              <img src="/assets/img/european-commision.webp" class="about_modal_img" />
+              <span class="img_span" data-i18n-key="about-pic-2">Can't seem to take anything too seriously.</span>
+            </div>
+            <p class="about_modal_info" data-i18n-key="about-info-3">Right after that I spent one year in Australia with a working-holidays visa. Even thought I didn't work in development during that time, I loved the experience and I had time to join programming events and hackatons. In fact I loved it so much that after one year working in Spain, I repeated with my second working-holiday, this time in Japan.</p>
+            <div class="about_modal_img_section">
+              <img src="/assets/img/me-in-japan.jpg" class="about_modal_img" />
+              <span class="img_span" data-i18n-key="about-pic-3">This country is just gorgeous.</span>
+            </div>
+            <p class="about_modal_info" data-i18n-key="about-info-4">Nowadays, when I'm not busy with work, I'm focused on changing my career path to focus in frontend development. Participating in programming communities, building portfolio projects and learning as much as I can.</p>
           </div>
         </div>
     </section>
@@ -321,7 +343,8 @@
                 <h3 class="qualifications_title" data-i18n-key="ibm-title">
                   Software engineering trainee
                 </h3>
-                <span class="qualifications_subtitle" data-i18n-key="ibm-subtitle">March 2013 - October 2013, Belgium</span>
+                <span class="qualifications_subtitle" data-i18n-key="ibm-subtitle">March 2013 - October 2013,
+                  Belgium</span>
                 <ul class="tag_list">
                   <li class="tag_item">HTML</li>
                   <li class="tag_item">CSS</li>
@@ -341,7 +364,8 @@
                   <h3 class="qualifications_titles" data-i18n-key="responsibilities">Responsibilities</h3>
 
                   <li data-i18n-key="ibm-responsibilities-1">
-                    Research the possibilities of IBM’s proprietary software for web development inside their enterprise suite.
+                    Research the possibilities of IBM’s proprietary software for web development inside their enterprise
+                    suite.
                   </li>
                   <li data-i18n-key="ibm-responsibilities-2">
                     Provide a cross-platform solution to optimize the workload involving software sales opportunities.
@@ -391,7 +415,7 @@
                 <li class="tag_item">ES6/ES7</li>
                 <li class="tag_item">Typescript</li>
                 <li class="tag_item">Git</li>
-              </ul> 
+              </ul>
             </div>
           </div>
         </div>
@@ -403,7 +427,8 @@
               <h3 class="qualifications_title" data-i18n-key="university-title">
                 Bachelor of Computer Science
               </h3>
-              <span class="qualifications_subtitle" data-i18n-key="university-almeria-subtitle">University of Almería, Spain</span>
+              <span class="qualifications_subtitle" data-i18n-key="university-almeria-subtitle">University of Almería,
+                Spain</span>
             </div>
           </div>
         </div>
@@ -416,16 +441,17 @@
                 <h3 class="qualifications_title" data-i18n-key="erasmus-title">
                   Bachelor of Computer Science - Abroad year
                 </h3>
-                <span class="qualifications_subtitle" data-i18n-key="wroclaw-university-subtitle">Wroclaw University of Technology, Poland</span>
+                <span class="qualifications_subtitle" data-i18n-key="wroclaw-university-subtitle">Wroclaw University of
+                  Technology, Poland</span>
               </div>
             </div>
           </div>
-        
+
         </div>
       </div>
     </section>
   </main>
-    <footer class="footer">
+  <footer class="footer">
     <div class="footer_bg">
       <div class="footer_container container grid">
         <div>

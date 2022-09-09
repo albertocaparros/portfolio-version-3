@@ -135,4 +135,31 @@ var scrollUp = () => {
 };
 
 window.addEventListener('scroll', scrollUp);
+
+//--------------------------------------------------------------------------------//
+
+const aboutModal = document.getElementById('about-modal');
+const aboutModalContent = document.getElementById('about-modal-content');
+const openModalButton = document.getElementById('open-modal');
+const closeModalButton = document.getElementById('about-modal-close');
+
+let openModal = () => {
+  aboutModal.classList.add('show-modal');
+};
+
+openModalButton.addEventListener('click', openModal);
+
+let closeModal = () => {
+  aboutModal.classList.remove('show-modal');
+};
+
+closeModalButton.addEventListener('click', closeModal);
+
+let clickOutsideModal = (e) => {
+  if (aboutModal === e.target) {
+    closeModal();
+  }
+};
+
+window.addEventListener('click', (e) => clickOutsideModal(e), false);
 //--------------------------------------------------------------------------------//
