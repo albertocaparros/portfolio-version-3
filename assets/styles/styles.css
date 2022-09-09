@@ -96,6 +96,10 @@ img {
   height: auto;
 }
 
+.clickable:hover {
+  cursor: pointer;
+}
+
 .section {
   height: fit-content;
   padding: 2rem 0 4rem;
@@ -420,8 +424,12 @@ img {
 .tag_list {
   display: flex;
   -webkit-box-pack: start;
-  justify-content: center;
   margin-bottom: var(--mb-1);
+  flex-wrap: wrap;
+}
+
+.portfolio_data .tag_list {
+  justify-content: center;
 }
 
 .tag_item {
@@ -429,7 +437,7 @@ img {
   color: var(--text-color);
   border-radius: 1rem;
   padding: 0.15rem 1rem;
-  margin: 0 0.5rem 0.75rem 0;
+  margin: 0 0.5rem 0 0;
 }
 
 .portfolio_button {
@@ -445,7 +453,6 @@ img {
   display: flex;
   align-items: center;
   margin-bottom: var(--mb-1-5);
-  cursor: pointer;
 }
 
 .qualifications_header > i {
