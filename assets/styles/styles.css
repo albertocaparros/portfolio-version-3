@@ -113,7 +113,7 @@ img {
 .section_subtitle {
   display: block;
   font-size: var(--small-font-size);
-  margin-bottom: var(--mb-2);
+  margin-bottom: var(--mb-1-5);
   padding: 0 var(--mb-1);
 }
 
@@ -437,7 +437,7 @@ img {
   color: var(--text-color);
   border-radius: 1rem;
   padding: 0.15rem 1rem;
-  margin: 0 0.5rem 0 0;
+  margin: 0.5rem 0.5rem 0 0;
 }
 
 .portfolio_button {
@@ -739,7 +739,7 @@ body.dark-theme {
   }
 
   .portfolio_content {
-    padding: 3rem;
+    padding: 1.5rem 3rem 3rem 3rem;
   }
 }
 
