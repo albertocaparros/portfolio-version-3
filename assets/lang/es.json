@@ -1,5 +1,5 @@
 {
-  "working-title": "Desarrollador frontend",
+  "working-title": "Desarrollador front-end",
   "site-description": "Bienvenido/a a mi portfolio, donde puedes aprender mas sobre mí y mi trabajo. Disponible para trabajo de autonomo y a tiempo completo.",
   "change-language": "en",
   "home": "Inicio",
@@ -8,11 +8,12 @@
   "contact": "Contacto",
   "scroll-down": "Desplace hacia abajo",
   "about-subtitle": "Quién es Alberto",
-  "about-paragraph-1": "Soy un entusiasta del potencial que presenta el desarrollo web desde que escribí mis primeras líneas en HTML cuando tenía 14 años. Ahora estoy buscando una oportunidad para desarrollar tecnologías frontend y convertirme en un experto en este campo.",
-  "about-paragraph-2": "Además de crear código de alta calidad y aprender sobre tecnologias web, me encanta viajar. A día de hoy he vivido en 7 paises y visitado mas de 30 (y contando!). Si quieres saber mas sobre mi historia personal puedes pinchar en el botón de 'Ver más'.",
+  "about-paragraph-1": "Soy un entusiasta del potencial que presenta el desarrollo web desde que escribí mis primeras líneas en HTML cuando tenía 14 años. Ahora estoy buscando una oportunidad para desarrollar tecnologías front-end y convertirme en un experto en este campo.",
+  "about-paragraph-2": "Además de crear código de alta calidad y aprender sobre tecnologias web, me encanta viajar. A día de hoy he vivido en 7 paises y visitado mas de 30 (y contando!).",
+  "about-paragraph-3": "Puedes conseguir una copia de mi CV pulsando en el botón de abajo, y si todavía tienes curiosidad por mi historia personal puedes pulsar en el botón de 'Ver más'",
   "download-cv": "Descargar CV",
   "learn-more": "Ver más",
-  "portfolio-subtitle": "Recientemente he decidido volver a ponerme en el mercado y buscar una nueva posición en desarrollo frontend. Aquí puede ver algunos de los proyectos personales en los que he trabajado recientemente para mostrar mi habilidad y aprender cosas nuevas.",
+  "portfolio-subtitle": "Recientemente he decidido volver a ponerme en el mercado y buscar una nueva posición en desarrollo front-end. Aquí puede ver algunos de los proyectos personales en los que he trabajado recientemente para mostrar mi habilidad y aprender cosas nuevas.",
   "dailys-board-description": "Con el trabajo remoto perdimos la típica pizarra analogica que ayudaba al equipo a avanzar con la reunión diaria. Cansado de silencios incomodos y gente preguntando quién faltaba por hablar, creé esta sencilla aplicación para ayudar al equipo. Actualmente usa localstorage para persistencia de datos, y estoy trabajando en añadir funcionalidad de notificaciones.",
   "travel-journal-description": "Desarrollé esta aplicación para tener un pequeño diario donde llevar la cuenta de los lugares que he visitado por el mundo. Puedes revisar fotos y alguna información sobre las localizaciones visitadas, además de verlas juntas como marcadores en el mapa. Originalmente estaba desarrollada en vainilla JS, e hice una segunda iteración con el framework Remix.",
   "code": "Código",
@@ -34,7 +35,7 @@
   "elejido-responsibilities-1": "Analizar los aspectos clave de la adminstración local que pudieran ser mejorados con soluciones informaticas.",
   "elejido-responsibilities-2": "Diseñar, desarrollar y publicar proyectos disponibles en plataforma web, Android e iOS.",
   "elejido-accomplishments-1": "Producir tres proyectos terminados que han sido usados por miles de clientes locales.",
-  "elejido-accomplishments-2": "Proveer de diseño, frontend y backend usando un framework basado en Angular y APIs Rest en PHP",
+  "elejido-accomplishments-2": "Proveer de diseño, front-end y backend usando un framework basado en Angular y APIs Rest en PHP",
   "lemoncode-subtitle": "Lemoncode formación, Remoto",
   "university-title": "Grado en Ingeniería Informática",
   "university-almeria-subtitle": "Universidad de Almería, España",
@@ -53,7 +54,7 @@
   "about-pic-1": "Tengo que volver a jugar a esto.",
   "about-info-2": "Viendo mi temprano interes, fué una decisión facil elegir Ingenería informatica como mi carrera universitaria. Estudié en España, aunque por aquel entonces ya había vivido unos meses en Edinburgo, y poco después entré en el programa Erasmus para estudiar un año en Wrocław, Polonia. Fué el comienzo de mi interes en conocer otros lugares del mundo. Antes de graduarme realicé unas prácticas en IBM Bélgica, y poco después volví a ese país para otra estancia en la Comisión Europea.",
   "about-pic-2": "No me puedo tomar nada demasiado en serio.",
-  "about-info-3": "Justo despúes pasé un en Australia con un visado de working-holidays. A pesar de no trabajar en desarrollo durante este tiempo, me encantó la experiencia y tuve tiempo de asistir a eventos de programación y hackatones. Tanto me gustó que tras otro año trabajando en España, volví a repetir con mi segundo visado anual, esta vez en Japón",
+  "about-info-3": "Justo despúes pasé un en Australia con un visado de working-holidays. A pesar de no trabajar en desarrollo de software durante este tiempo, me encantó la experiencia y tuve tiempo de asistir a eventos de programación y hackatones. Tanto me gustó que tras otro año trabajando en España, volví a repetir con mi segunda experiencia de visado working-holiday, esta vez en Japón",
   "about-pic-3": "Este país es precioso.",
-  "about-info-4": "Hoy en día, cuando no estoy ocupado con el trabajo, estoy concentrado en cambiar mi carrera y enfocarme en el desarrollo frontend. Participando en comunidades de programación, construyendo proyectos para mejorar mi portfolio y aprendiendo todo lo que puedo."
+  "about-info-4": "Hoy en día, cuando no estoy ocupado con el trabajo, estoy enfocado en mover mi carrera hacia el desarrollo front-end. Participando en comunidades de programación, construyendo proyectos para mejorar mi portfolio y aprendiendo todo lo que puedo."
 }
