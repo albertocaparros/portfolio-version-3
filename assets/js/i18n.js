@@ -16,7 +16,7 @@ async function setLocale(newLocale) {
 }
 
 async function fetchTranslationsFor(newLocale) {
-  const response = await fetch(`../assets/lang/${newLocale}.json`);
+  const response = await fetch(`assets/lang/${newLocale}.json`);
   return await response.json();
 }
 
